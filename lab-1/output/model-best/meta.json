@@ -17,48 +17,42 @@
     "mode":"default"
   },
   "labels":{
-    "tok2vec":[
-
-    ],
     "textcat":[
       "Positive",
       "Negative"
     ]
   },
   "pipeline":[
-    "tok2vec",
     "textcat"
   ],
   "components":[
-    "tok2vec",
     "textcat"
   ],
   "disabled":[
 
   ],
   "performance":{
-    "cats_score":0.8225807786,
+    "cats_score":0.9371289793,
     "cats_score_desc":"macro F",
-    "cats_micro_p":0.8231428571,
-    "cats_micro_r":0.8231428571,
-    "cats_micro_f":0.8231428571,
-    "cats_macro_p":0.8289956537,
-    "cats_macro_r":0.8239369326,
-    "cats_macro_f":0.8225807786,
-    "cats_macro_auc":0.8770364973,
+    "cats_micro_p":0.9371428571,
+    "cats_micro_r":0.9371428571,
+    "cats_micro_f":0.9371428571,
+    "cats_macro_p":0.9381555693,
+    "cats_macro_r":0.9374561365,
+    "cats_macro_f":0.9371289793,
+    "cats_macro_auc":0.9782339269,
     "cats_f_per_type":{
       "Positive":{
-        "p":0.8759791123,
-        "r":0.7577639752,
-        "f":0.812594611
+        "p":0.9624329159,
+        "r":0.91134952,
+        "f":0.9361948956
       },
       "Negative":{
-        "p":0.7820121951,
-        "r":0.8901098901,
-        "f":0.8325669462
+        "p":0.9138782227,
+        "r":0.963562753,
+        "f":0.9380630631
       }
     },
-    "tok2vec_loss":65.0958700346,
-    "textcat_loss":31.6314598228
+    "textcat_loss":8.4423212908
   }
 }
